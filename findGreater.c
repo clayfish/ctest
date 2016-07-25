@@ -5,19 +5,24 @@
 #include <stdio.h>
 #include <conio.h>
 
-int x, y ;
+int max(int, int);
+
+int maxIn3(int, int, int);
 
 int main() {
-  printf("Please inter two numbers");
-    scanf("%d %d", &x,&y);
-    if(x > y)
-    {
-        printf("%d is greater than %d", x,y);
-    }
-    else
-    {
-        printf("%d is less than %d or equal", x,y);
-    }
+    int x, y, z;
+    printf("Please inter three numbers");
+    scanf("%d%d%d", &x, &y, &z);
+//    printf("Max is %d", max(x, y));
+    printf("max is %d", maxIn3(x, y, z));
     getch();
     return 0;
+}
+
+int max(int a, int b) {
+    return a > b ? a : b;
+}
+
+int maxIn3(int a, int b, int c) {
+    return a > b ? max(a, c) : max(b, c);
 }
