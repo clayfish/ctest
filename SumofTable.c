@@ -4,16 +4,16 @@
 
 #include <stdio.h>
 #include <conio.h>
-int a, b, c, d;
 int main() {
-    c=1;
-    printf("Please input a number");
+    int a, b, c=0, d;
+    printf("Please input a number: ");
     scanf("%d", &a);
     for(b=1; b<=10; b++){
-        c=a*b;
-        printf("%d\n", c);
-
+        d=a*b;
+        printf("%dx%d = %d\n", a, b, d);
+        c=c+d;
     }
+    printf("Total = %d", c);
     getch();
     return 0;
 }
