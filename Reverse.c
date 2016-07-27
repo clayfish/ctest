@@ -4,11 +4,10 @@
 #include <stdio.h>
 #include <conio.h>
 
-main() {
-    int i, z;
+int main() {
+    int i;
     printf("Please input an no: ");
     scanf("%d", &i);
-    z = i;
     while (i > 0) {
         printf("%d\n", i);
         i = --i;
