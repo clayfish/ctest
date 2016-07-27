@@ -4,17 +4,17 @@
 
 #include <stdio.h>
 #include <conio.h>
+
 int main() {
-    int x, y, z=0, t;
+    int x, y, z = 0, t;
     printf("Enter a number: ");
-    scanf("%d" , &x);
-    for (y = 1; y <=10; y++) {
-        t= x*y;
+    scanf("%d", &x);
+    for (y = 1; y <= 50; y++) {
+        t = x * y;
         printf("%d*%d=%d \n", x, y, t);
-        z= z+t;}
-    printf("Total of=%d",z);
-
-
+        z = z + t;
+    }
+    printf("Total of=%d", z);
     getch();
     return 0;
 }

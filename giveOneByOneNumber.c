@@ -1,5 +1,5 @@
 //
-// Created by akela on 26-07-2016.
+// Created by Pawan Mishra on 27-07-2016.
 //
 
 #include <stdio.h>
@@ -9,8 +9,8 @@ int main(){
     int i, a, z;
     printf("please input a number");
     scanf("%d", &a);
-    for(i=10; i>=1; i--){
-        z=a*i;
+    for(i=1; i<=a; i++){
+        z=a-i;
         printf("%d\n", z);
     }
     getch ();
