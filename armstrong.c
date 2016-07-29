@@ -9,7 +9,7 @@ int main() {
     int i, sum = 0, rem, z;
     printf("Please enter a number: ");
     scanf("%d", &i);
-    z=i;
+    z = i;
     while (i != 0) {
         rem = i % 10;
         sum = sum + rem * rem * rem;
@@ -17,7 +17,7 @@ int main() {
     }
     printf("sum= %d\n", sum);
 
-    if (sum==z){
+    if (sum == z) {
         printf("Your number is an armstrong number");
     }
     else {
