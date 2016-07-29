@@ -25,5 +25,4 @@ int main() {
         printf("%d is not a palindrome.", z);
     getch();
     return 0;
-
 }
