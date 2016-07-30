@@ -23,6 +23,8 @@ int sumof3digit();
 int sumofgivendigit();
 int sumoftable();
 int table();
+int primenumber();
+void wordofdigit();
 
 int main() {
     vowelOrNot();
@@ -46,6 +48,8 @@ int main() {
     sumofgivendigit();
     sumoftable();
     table();
+    primenumber();
+    wordofdigit();
 
     return 0;
 }

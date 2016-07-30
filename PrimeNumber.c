@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+int primenumber() {
     int n, i, flag = 0;
 
     printf("Enter a positive integer: ");

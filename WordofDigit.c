@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 #include <conio.h>
-void main(){
+void wordofdigit(){
     char z;
     printf("Enter your digit:");
     scanf("%c" , &z);
