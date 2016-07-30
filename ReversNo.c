@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+int reversno() {
     int n, r = 0, rem;
 
     printf("Enter an integer: ");

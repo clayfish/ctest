@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+int sumofgivendigit() {
     int a, z, sum = 0, rem;
     printf("please enter digits\n");
     scanf("%d", &a);

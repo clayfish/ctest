@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+int revers() {
     int i;
     printf("Please input an no: ");
     scanf("%d", &i);

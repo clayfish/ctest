@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <conio.h>
-int main(){
+int palindrome(){
     int i, z, rem, n=0;
     printf("Enter a Number: ");
     scanf("%d", &i);

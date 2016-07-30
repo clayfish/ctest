@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+int leapyear() {
     int i, n = 4, z, y, k = 400;
     printf("Enter a year: ");
     scanf("%d", &i);

@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+int evenodd(){
     int i;
     printf("Please inter a number");
     scanf("%d", &i);

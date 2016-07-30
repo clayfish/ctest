@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main() {
+void print() {
     int i, n, z = 0;
     printf("please input any digit: ");
     scanf("%d", &i);

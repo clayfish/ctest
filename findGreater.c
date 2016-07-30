@@ -16,7 +16,7 @@ int max(int, int);
  */
 int maxIn3(int, int, int);
 
-int main() {
+int greater(){
     int x, y, z;
     printf("Please enter three numbers: ");
     scanf("%d%d%d", &x, &y, &z);

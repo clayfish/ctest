@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main(){
+void vowelOrNot(){
     char z;
     printf("Please press any alphabet key without cps on: ");
     scanf("%c", &z);

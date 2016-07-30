@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+int productofdigit() {
     int a, z, product = 1, rem;
     printf("please enter digits\n");
     scanf("%d", &a);

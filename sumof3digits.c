@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+int sumof3digit() {
     int n, t, sum = 0, rem;
 
     printf("Enter an integer: ");

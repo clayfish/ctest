@@ -12,7 +12,7 @@ int sub(int, int);
 
 float divi(int, int);
 
-int main() {
+int calculator() {
     int a;
     int b;
     int c;

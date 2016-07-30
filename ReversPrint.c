@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+int reversprint() {
     int a, z, i = 1, rem;
     printf("please enter digits\n");
     scanf("%d", &a);

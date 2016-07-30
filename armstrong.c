@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+int armstrong() {
     int i, sum = 0, rem, z;
     printf("Please enter a number: ");
     scanf("%d", &i);

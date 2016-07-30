@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+int palindrome(){
     int n, i = 0, rem, z;
 
     printf("Enter an integer: ");
