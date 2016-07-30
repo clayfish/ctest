@@ -3,7 +3,6 @@
 //
 
 #include <stdio.h>
-#include <conio.h>
 
 void vowelOrNot(){
     char z;
@@ -46,5 +45,5 @@ void vowelOrNot(){
 //            printf("This is not a vowel or cps on");
 //            break;
 //    }
-getch();
+
 }

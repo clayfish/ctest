@@ -2,18 +2,20 @@
 // Created by akela on 22-07-2016.
 //
 
+#include <conio.h>
+
 int primeNumber();
 void vowelOrNot();
 int armstrong();
 int calculator();
-int palindrome();
+int palindromebabu();
 int evenodd();
 int greater();
 int giveonebyoneno();
 int leapyear();
 int palindrome();
 void print();
-int table();
+int table1();
 int product();
 int productofdigit();
 int revers();
@@ -36,9 +38,9 @@ int main() {
     greater();
     giveonebyoneno();
     leapyear();
-    palindrome();
+    palindromebabu();
     print();
-    table();
+    table1();
     product();
     productofdigit();
     revers();
@@ -51,5 +53,6 @@ int main() {
     primenumber();
     wordofdigit();
 
+    getch();
     return 0;
 }

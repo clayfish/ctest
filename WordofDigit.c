@@ -4,7 +4,7 @@
 
 
 #include <stdio.h>
-#include <conio.h>
+
 void wordofdigit(){
     char z;
     printf("Enter your digit:");
@@ -53,5 +53,5 @@ void wordofdigit(){
             printf("This is not in 0 to 9 Range");
 
     }
-    getch();
+
 }

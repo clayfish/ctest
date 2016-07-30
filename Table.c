@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int table(){
+int table1(){
     int i, a, z;
     printf("please input a number");
     scanf("%d", &a);

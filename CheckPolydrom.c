@@ -3,9 +3,8 @@
 //
 
 #include <stdio.h>
-#include <conio.h>
 
-int palindrome(){
+int palindromebabu(){
     int n, i = 0, rem, z;
 
     printf("Enter an integer: ");
@@ -23,6 +22,6 @@ int palindrome(){
         printf("%d is a palindrome.", z);
     else
         printf("%d is not a palindrome.", z);
-    getch();
+
     return 0;
 }
