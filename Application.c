@@ -27,7 +27,9 @@
 //int table();
 //int primenumber();
 //void wordofdigit();
-int fab();
+//int fab();
+//int maxandmin();
+int swapping();
 
 int main() {
     //vowelOrNot();
@@ -53,7 +55,9 @@ int main() {
     //table();
     //primenumber();
     //wordofdigit();
-    fab();
+//    fab();
+    //maxandmin();
+    swapping();
     getch();
     return 0;
 }
