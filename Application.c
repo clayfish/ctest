@@ -6,7 +6,7 @@
 
 //int primeNumber();
 //void vowelOrNot();
-//int armstrong();
+int armstrong();
 //int calculator();
 //int palindromebabu();
 //int evenodd();
@@ -29,12 +29,14 @@
 //void wordofdigit();
 //int fab();
 //int maxandmin();
-int swapping();
+//int swapping();
+//int swappingintwono();
+
 
 int main() {
     //vowelOrNot();
     //primeNumber();
-    //armstrong();
+    armstrong();
     //calculator();
     //palindrome();
     //evenodd();
@@ -53,11 +55,14 @@ int main() {
     //sumofgivendigit();
     //sumoftable();
     //table();
-    //primenumber();
+//    primenumber();
     //wordofdigit();
-//    fab();
-    //maxandmin();
-    swapping();
+    // fab();
+//    maxandmin();
+    //swapping();
+//    swappingintwono();
+
+
     getch();
     return 0;
 }
