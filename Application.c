@@ -6,7 +6,7 @@
 
 //int primeNumber();
 //void vowelOrNot();
-int armstrong();
+//int armstrong();
 //int calculator();
 //int palindromebabu();
 //int evenodd();
@@ -31,12 +31,12 @@ int armstrong();
 //int maxandmin();
 //int swapping();
 //int swappingintwono();
-
-
+//int matrixsum();
+void ascii();
 int main() {
     //vowelOrNot();
     //primeNumber();
-    armstrong();
+//    armstrong();
     //calculator();
     //palindrome();
     //evenodd();
@@ -61,8 +61,8 @@ int main() {
 //    maxandmin();
     //swapping();
 //    swappingintwono();
-
-
+  //  matrixsum();
+    ascii();
     getch();
     return 0;
 }
