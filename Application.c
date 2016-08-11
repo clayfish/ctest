@@ -32,7 +32,8 @@
 //int swapping();
 //int swappingintwono();
 //int matrixsum();
-void ascii();
+//void ascii();
+int pointer();
 int main() {
     //vowelOrNot();
     //primeNumber();
@@ -62,7 +63,8 @@ int main() {
     //swapping();
 //    swappingintwono();
   //  matrixsum();
-    ascii();
+    //ascii();
+    pointer();
     getch();
     return 0;
 }
