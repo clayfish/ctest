@@ -4,7 +4,8 @@
 
 #include <stdio.h>
 #include <string.h>
-void copy(){
+
+void copy() {
     char str1[10], str2[20];
     printf("Enter the I string : ");
     scanf("%s", str1);

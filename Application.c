@@ -75,7 +75,7 @@ int main() {
     //mallocpointer();
     // length();
     //compair();
-  //  copy();
+    //  copy();
     //con();
     strctr();
 

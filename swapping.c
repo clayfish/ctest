@@ -3,13 +3,14 @@
 //
 
 #include <stdio.h>
-int swapping(){
+
+int swapping() {
     int i, n, z;
     printf("Enter two numbers: ");
     scanf("%d %d", &i, &n);
-z=i;
-    i=n;
-    n=z;
+    z = i;
+    i = n;
+    n = z;
     printf("Now i=%d and n=%d", i, n);
 
 }

@@ -4,10 +4,10 @@
 
 #include <stdio.h>
 
-void ascii(){
+void ascii() {
     char c;
     printf("Enter a character");
     scanf("%c", &c);
     printf("\n");
-    printf("The ASCII value of %C = %d", c,c);
+    printf("The ASCII value of %C = %d", c, c);
 }

@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int palindromebabu(){
+int palindromebabu() {
     int n, i = 0, rem, z;
 
     printf("Enter an integer: ");

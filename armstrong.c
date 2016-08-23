@@ -17,10 +17,10 @@ int armstrong() {
         i = i / 10;
     }
     printf("sum= %d\n", sum);
-while(k>=0){
-    printf("%d\n", k);
-    --k;
-}
+    while (k >= 0) {
+        printf("%d\n", k);
+        --k;
+    }
     if (sum == z) {
         printf("Your number is an armstrong number");
     }

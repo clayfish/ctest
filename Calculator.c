@@ -44,5 +44,5 @@ int sub(int x, int y) {
 }
 
 float divi(int x, int y) {
-    return 1.0f*x / y;
+    return 1.0f * x / y;
 }

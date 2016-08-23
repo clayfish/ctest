@@ -5,14 +5,14 @@
 #include <stdio.h>
 #include <conio.h>
 
-int table1(){
+int table1() {
     int i, a, z;
     printf("please input a number");
     scanf("%d", &a);
-    for(i=10; i>=1; i--){
-        z=a*i;
+    for (i = 10; i >= 1; i--) {
+        z = a * i;
         printf("%d\n", z);
     }
-    getch ();
+    getch();
     return 0;
 }

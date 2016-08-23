@@ -13,7 +13,7 @@ int reversno() {
 
     while (n != 0) {
         rem = n % 10;
-        r = r* 10 + rem;
+        r = r * 10 + rem;
         n /= 10;
     }
 

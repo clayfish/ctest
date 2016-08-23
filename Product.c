@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include <conio.h>
+
 int product(){
     int i, n=1, x, u;
     printf("Please input an digit: ");

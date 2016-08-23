@@ -5,6 +5,7 @@
 #include <stdio.h>
 
 long long int get_fibonacci_rec(int);
+
 long long int get_fibonacci_loop(int);
 
 int fab() {
@@ -27,7 +28,7 @@ long long int get_fibonacci_rec(int n) {
 }
 
 long long int get_fibonacci_loop(int n) {
-    long long int a = 0, b=1, fact=0;
+    long long int a = 0, b = 1, fact = 0;
     int i;
 
     if (n == 1) {
@@ -37,8 +38,8 @@ long long int get_fibonacci_loop(int n) {
         return a;
     }
 
-    for (i=2; i<=n; i++) {
-        fact = a+b;
+    for (i = 2; i <= n; i++) {
+        fact = a + b;
         a = b;
         b = fact;
     }

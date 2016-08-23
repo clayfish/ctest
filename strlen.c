@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
- int length(){
+int length() {
     char str[20];
     int length;
     printf("Enter the string :\t");

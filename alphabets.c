@@ -4,25 +4,25 @@
 
 #include <stdio.h>
 
-void vowelOrNot(){
+void vowelOrNot() {
     char z;
     printf("Please press any alphabet key without cps on: ");
     scanf("%c", &z);
-    printf("Address of z: %ld", (long int)&z);
+    printf("Address of z: %ld", (long int) &z);
 
     char vowels[10] = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
 
-    short i,flag=0;
-    for(i=0; i<10; i++) {
-        printf("Address of vowels[%d] is %ld\n", i, (long int)&vowels+i);
-        if(z == vowels[i]) {
+    short i, flag = 0;
+    for (i = 0; i < 10; i++) {
+        printf("Address of vowels[%d] is %ld\n", i, (long int) &vowels + i);
+        if (z == vowels[i]) {
             printf("This is a vowel");
-            flag=1;
+            flag = 1;
             break;
         }
     }
 
-    if(flag ==0) {
+    if (flag == 0) {
         printf("This is not a vowel");
     }
 

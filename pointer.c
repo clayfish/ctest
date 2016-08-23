@@ -3,7 +3,8 @@
 //
 
 #include <stdio.h>
-int pointer(){
+
+int pointer() {
     int a = 87;
     float b = 4.5;
     int *p1 = &a;

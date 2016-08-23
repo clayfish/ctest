@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include <conio.h>
+
 int sumoftable() {
     int a, b, c=0, d;
     printf("Please input a number: ");

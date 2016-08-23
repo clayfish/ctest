@@ -5,11 +5,11 @@
 
 #include <stdio.h>
 
-void wordofdigit(){
+void wordofdigit() {
     char z;
     printf("Enter your digit:");
-    scanf("%c" , &z);
-    switch(z){
+    scanf("%c", &z);
+    switch (z) {
         case '0':
             printf("this is zero");
             break;
