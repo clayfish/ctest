@@ -33,11 +33,18 @@
 //int swappingintwono();
 //int matrixsum();
 //void ascii();
-int pointer();
+//int pointer();
+//void mallocpointer();
+//int length();
+//void compair();
+//void copy();
+//void con();
+void strctr();
+
 int main() {
     //vowelOrNot();
-    //primeNumber();
-//    armstrong();
+    // primeNumber();
+    //armstrong();
     //calculator();
     //palindrome();
     //evenodd();
@@ -56,15 +63,22 @@ int main() {
     //sumofgivendigit();
     //sumoftable();
     //table();
-//    primenumber();
+    //primenumber();
     //wordofdigit();
-    // fab();
-//    maxandmin();
+    //fab();
+    //maxandmin();
     //swapping();
-//    swappingintwono();
-  //  matrixsum();
+    //swappingintwono();
+    //matrixsum();
     //ascii();
-    pointer();
+    //pointer();
+    //mallocpointer();
+    // length();
+    //compair();
+  //  copy();
+    //con();
+    strctr();
+
     getch();
     return 0;
 }
