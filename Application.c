@@ -39,8 +39,10 @@
 //void compair();
 //void copy();
 //void con();
-void strctr();
-
+//void strctr();
+//void calculator();
+//void powerandbase();
+//int productlast();
 int main() {
     //vowelOrNot();
     // primeNumber();
@@ -67,7 +69,7 @@ int main() {
     //wordofdigit();
     //fab();
     //maxandmin();
-    //swapping();
+//    swapping();
     //swappingintwono();
     //matrixsum();
     //ascii();
@@ -77,8 +79,10 @@ int main() {
     //compair();
     //  copy();
     //con();
-    strctr();
-
+    //strctr();
+//    calculator();
+    //powerandbase();
+    //productlast();
     getch();
     return 0;
 }

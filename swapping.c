@@ -11,6 +11,6 @@ int swapping() {
     z = i;
     i = n;
     n = z;
-    printf("Now i=%d and n=%d", i, n);
+    printf("Now =%d %d", i, n);
 
 }
